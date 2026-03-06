@@ -1,4 +1,4 @@
-# Exercícios de Programação
+# Programação Básica
 
 Este repositório contém exercícios básicos de programação utilizados para prática e aprendizado.
 
