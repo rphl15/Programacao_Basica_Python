@@ -24,6 +24,10 @@ head(df, n=10)
 summary(df)
 #Mostrar a estrutura dos dados, incluindo os tipos de variáveis e o número de observações.
 str(df)
+#Mostrar o número de linhas e colunas do DataFrame
+dim(df)
+#Nomes de colunas
+colnames(df)
 ```
 
 *Filtrando Dados*
@@ -37,14 +41,28 @@ head(df, n=10)
 summary(df_salario)
 ```
 
-
+*If e Else*
 
 ```{r}
-
-
+#Função If e Else
+n1 = 10
+n2 = 20
+if (n1 < n2)
+{  
+  print("Verdadeiro")
+}else
+{
+  print("Falso")
+  }
 ```
 
+*Função ifelse*
 
+```{r}
+#Função Ifelse
+x = ifelse(n1 > 15, "Verdadeiro", "Falso")
+print(x)
+```
 
 
 
