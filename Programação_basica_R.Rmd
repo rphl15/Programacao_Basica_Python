@@ -56,13 +56,72 @@ if (n1 < n2)
   }
 ```
 
-*Função ifelse*
+*ifelse*
 
 ```{r}
 #Função Ifelse
 x = ifelse(n1 > 15, "Verdadeiro", "Falso")
 print(x)
 ```
+
+*for*
+
+```{r}
+for (i in 2:12){
+  print(i)
+}
+```
+
+*while*
+
+```{r}
+a = 1
+while (a <= 10)
+{
+  print(a)
+  a = a + 0.01
+}
+```
+
+*function*
+
+```{r}
+parorimpar <- function (x) {
+  return(ifelse(x%%2==0, "Par", "Impar"))
+}
+parorimpar(5)
+parorimpar(12)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
